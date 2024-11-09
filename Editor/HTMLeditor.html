@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>HTML Editor</title>
+      <link rel="stylesheet" href="HTMLeditor.css">
+      <script defer type="text/javascript" src="HTMLeditor.js"></script>
+    </head>
+    <body>
+        <nav>
+            <h2>HTML</h2>
+            <h2 id="run-text">Run</h2>
+        </nav>
+        <div class="container">
+            <div class="left-side">
+              <textarea id="html-code" onkeyup="run()"></textarea>
+            </div>
+      
+      
+            <div class="right-side">
+              <iframe id="run"></iframe>
+            </div>
+          </div>
+    </body>
+</html>

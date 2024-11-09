@@ -1,0 +1,49 @@
+body {
+    background-color: #758b74;
+}
+nav {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 40px;
+}
+nav h2 {
+    color: white;
+    display: inline-block;
+    margin-left: 20px;
+}
+nav #run-text {
+    margin-left: 50rem;
+}
+.container {
+    display: flex;
+}
+.left-side {
+    width: 50%;
+    height: 85vh;
+    margin-top: 20px;
+}
+label {
+    color: white;
+}
+
+label img{
+    width: 34px;
+}
+#css-code {
+    width: 100%;
+    height: 85vh;
+    background-color: lightgray;
+}
+.right-side {
+    width: 50%;
+    height: 85vh;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#run {
+    width: 100%;
+    height: 85vh;
+    background-color: white;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>CSS Editor</title>
+      <link rel="stylesheet" href="Editor/CSS for editor/JSeditor.css">
+      <script defer type="text/javascript" src="Editor/Editor JavaScript/JSeditor.js"></script>
+    </head>
+    <body>
+      <div class="nav-bar">
+        <a href="Homepage.html"></a>
+      </div>
+        <nav>
+            <h2>JS</h2>
+            <h2 id="run-text">Run</h2>
+        </nav>
+        <div class="container">
+            <div class="left-side">
+              <textarea id="js-code" onkeyup="run()"></textarea>
+            </div>
+      
+      
+            <div class="right-side">
+              <iframe id="run"></iframe>
+            </div>
+          </div>
+    </body>
+</html>
