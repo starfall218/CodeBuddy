@@ -2,21 +2,31 @@
 <html>
     <head>
       <title>CSS Editor</title>
+<<<<<<< Updated upstream
       <link rel="stylesheet" href="CSSeditor.css">
       <script defer type="text/javascript" src="CSSeditor.js"></script>
+=======
+      <link rel="stylesheet" href="CSS for editor/CSSeditor.css">
+      <script defer type="text/javascript" src="Editor JavaScript/CSSeditor.js"></script>
+
+>>>>>>> Stashed changes
     </head>
     <body>
         <nav>
-            <h2>CSS</h2>
-            <h2 id="run-text">Run</h2>
+          <nav>
+            <a href="editor.html"><img src="back.png"></a>
+              
+          </nav>
         </nav>
         <div class="container">
             <div class="left-side">
+              <legend>CSS</legend>
               <textarea id="css-code" onkeyup="run()"></textarea>
             </div>
       
       
             <div class="right-side">
+              <legend>Run</legend>
               <iframe id="run"></iframe>
             </div>
           </div>

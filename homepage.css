@@ -1,11 +1,25 @@
 * {
     margin: 0;
+    max-width: 1920px;
 }
 body {
+<<<<<<< Updated upstream
     background: linear-gradient(to bottom left, #5d73ae,#317589, #045d67, #044F67 40%);
     width: 100vw;
     height: 99vh;
 }
+=======
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+.element {
+    overflow: hidden;
+    background-color: transparent;
+}
+.head1 {
+    background: linear-gradient(to bottom left, #5d73ae,#317589, #045d67, #044F67 40%);
+}
+>>>>>>> Stashed changes
 nav {
     display: flex;
     align-items: center;
@@ -14,7 +28,13 @@ nav {
 }
 nav .left-section {
     display: inline-block;
+<<<<<<< Updated upstream
     margin-left: 16px;
+=======
+    margin-left: 0;
+    width: 400px;
+    height: 130px;
+>>>>>>> Stashed changes
 }
 nav .left-section #logo_png {
     padding-top: 12px;
@@ -44,7 +64,13 @@ nav .right-section {
 }
 nav .right-section ul {
     display: flex;
+<<<<<<< Updated upstream
     font-family: "Sour Gummy", serif;
+=======
+    font-family: 'Robboto',"Sour Gummy", serif;
+    margin-left: 50px;
+    text-align: center;
+>>>>>>> Stashed changes
 }
 .right-section li {
     list-style: none;
@@ -130,6 +156,7 @@ header #sign_up {
     margin-left: auto;
     margin-right: auto;
 }
+<<<<<<< Updated upstream
 .other-facts .facts {
     display: flex;
     width: 350px;
@@ -137,3 +164,127 @@ header #sign_up {
     margin-right: 0;
     font-family: 'Montserrat';
 }
+=======
+.section h2 {
+    margin-left: 2em;
+    text-align: center;
+    width: 20px;
+}
+.section p {
+    margin-left: 7px;
+    font-family: 'Roboto';
+}
+.tape {
+    position: relative;
+    right: 0;
+    left: 0;
+    background-color: rgb(0, 74, 173);
+    height: 40px;
+    margin-top: 0;
+}
+.our-tools {
+    display: flex;
+    align-items: center;
+}
+ h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+.github {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    margin-left: 16px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+     rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#gg {
+    margin-left: 16em;
+}
+.github svg {
+    margin-left: 10px;
+    width: 34px;
+    height: 34px;
+    display: inline-block;
+}
+.github .text {
+    width: 300px;
+    margin-left: 7px;
+}
+.github h3 {
+    display: block;
+}
+.codingvec, .codingvec2 {
+    width: 400px;
+}
+.codingvec2 {
+    margin-top: 4em;
+}
+.workflow {
+    display: flex;
+    justify-content: space-evenly;
+}
+.workflow ol {
+    margin-top: 13em;
+}
+.workflow ol li {
+        font-family: "Just Another Hand", cursive;
+        font-weight: 400;
+        font-style: normal;
+      
+}
+
+a{
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    text-wrap: wrap;
+    margin-bottom: 19px;
+} 
+a p {
+    margin-top: 14px;
+}
+a button {
+    border: none;
+    background-color: #e36414;
+    width: 100px;
+    height: 36px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+footer {
+    background-color: black;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 1px;
+    margin-top: 50px;
+    color: white;
+}
+footer p {
+    padding-top: 30px;
+}
+/* .uppper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.company {
+    display: flex;
+    margin-left: 5px;
+}
+.mid-sec, .mid-sec2, .end p{
+    display: flex;
+    flex-direction: column;
+}
+.mid-sec, .mid-sec2, .end {
+    display: flex;
+}
+footer svg {
+    width: 32px;
+    height: 32px
+} */
+>>>>>>> Stashed changes
