@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sign/Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-width=1.0">
+    </head>
+    <body>
+        <form> <!--insert where it will be sent to-->
+            <div class="style">
+              <img src="Images/CodeBuddy,smaller.png">
+            </div>
+            <fieldset class="the_big_one">
+                <label for="user_name">
+                    <legend>Name</legend>
+                    <input id="user_name" type="text">
+                </label>
+                <label for="user_email">
+                    <legend>Email</legend>
+                    <input id="user_email" type="text">
+                </label>
+
+                <fieldset id="num2">
+                    <input id="passcode" placeholder="password" type="password" minlength="10">
+                    
+                </fieldset>
+                <fieldset id="num3">
+                    <label>
+                        <input id="agreed" type="checkbox">I agree to all <a href="#">terms and conditions</a>
+                    </label>
+                </fieldset>
+
+                <input id="submit" type="submit"><!--insert where it will be sent to-->
+                
+            </fieldset>
+           
+                
+           
+
+            
+
+            
+        </form>
+
+        <style>
+            * {
+                box-sizing: content-box;
+            }
+            body {
+                background: linear(#1a7897, transparent);
+            }
+            form {
+                width: 400px;
+                height: 550px;
+                margin-top: 40px;
+                margin-left: auto;
+                margin-right: auto;
+                background-color: whitesmoke;
+            }
+            .style {
+                background-color: whitesmoke;
+                border-top: 2vw solid whitesmoke;
+                border-left: 5vh solid whitesmoke;
+                border-right: 5vh solid whitesmoke;
+                border-bottom: 2vw solid whitesmoke;
+                border-radius: 5px;
+                
+            }
+            .style img {
+                object-fit: cover;
+                width: 325px;
+                height: 100px;
+                margin-top: 4px;
+                margin-left: 5px;
+            }
+            .the_big_one {
+                width: 300px;
+                height: 300px;
+                margin: auto;
+            }
+            fieldset {
+                background-color: white;
+            }
+            fieldset legend {
+                font-family: Arial;
+                font-size: 17px;
+                margin-left: 9px;
+                margin-top: 5px;
+            }
+            fieldset input {
+                box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.20);
+                width: 250px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                border: none;
+            }
+            fieldset #passcode {
+                width: 250px;
+            }
+            #num2 {
+                margin-top: 16px;
+            }
+            #num2 input {
+                width: 150px;
+                height: 25px;
+            }
+            #num3 {
+                margin-top: 15px;
+            }
+            #num3 label input {
+                width: 30px;
+                box-shadow: none;
+            }
+            #submit {
+                text-align: center;
+                width: 100px;
+                height: 20px;
+                border-radius: 10px;
+                background-color: #044F67;
+                color: white;
+                box-shadow: none;
+                margin-top: 15px;
+            }
+        </style>
+    </body>
+</html>
